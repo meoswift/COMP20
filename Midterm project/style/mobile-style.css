@@ -1,0 +1,195 @@
+@media (max-width: 800px) {
+    #menu {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #logo {
+    	margin-bottom: -2vh;
+    }
+
+    #main-nav {
+      width: 100vw;
+      background-color: #fff;
+      font-size: 1em;
+    }
+
+    #overview {
+      height: 80vh;
+    }
+
+    #overview-intro {
+      margin-top: -40%;
+      display: flex;
+      flex-direction: column;
+      width: 90vw;
+      margin: 5vw;
+    }
+
+    #overview img {
+      margin-top: 10%;
+    }
+
+    #tagline span{
+      font-size: 3em;
+      line-height: 40px;
+    }
+
+    #shop {
+      height: 75vh;
+    }
+
+    #more {
+      width: 50vw;
+    }
+
+    .title {
+      margin-top: 10vh;
+      font-size: 2em;
+    }
+
+    #products img {
+      width: 40vw;
+    }
+
+    #beans {
+      flex-direction: column;
+      padding: 0 5vw;
+      width: 90vw;
+      height: 70vh;
+      flex-grow: 2;
+    }
+
+    #beans img {
+      margin-top: 10vh;
+    }
+
+    #beans {
+      margin-bottom: 0;
+    }
+
+    #team {
+      margin: 0 5vw;
+      flex-wrap: wrap;
+      width: 90vw;
+    }
+
+    #team img {
+      height: 30vw;
+      margin: 0vw;
+    }
+
+    #team p {
+      font-size: 0.75em;
+      padding: 0;
+      margin: 0;
+    }
+
+    #careers {
+      height: 70vh;
+    }
+
+    #careers .title {
+      margin-top: 10vh;
+      margin-bottom: 5vh;
+    }
+
+    #split-sides {
+      flex-direction: column;
+    }
+
+    footer a {
+      text-decoration: underline;
+    }
+
+    footer p, a {
+      font-size: 0.75em;
+    }
+
+}
+
+@media (min-width: 800px, max-width: 1100px) {
+    body {
+      margin-bottom: 5%;
+    }
+
+    #menu {
+      padding-top: 1em;
+      margin-top: 5%;
+      flex-direction: column;
+      align-items: center;
+      position: static;
+    }
+
+    #logo {
+      margin: 0.5vw;
+    	font-size: 2.5em;
+      font-weight: bold;
+    }
+
+    #main-nav {
+      font-size: 1em;
+    }
+
+    #overview {
+      width: 100vw;
+      height: 40vh;
+    }
+
+    #overview-intro {
+      margin-top: -40%;
+      margin-left: 10%;
+      width: 40vw;
+      height: 30vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #overview img {
+      margin-top: 5%;
+    }
+
+    #tagline span{
+      font-size: 3em;
+      line-height: 40px;
+    }
+
+    #more {
+      width: 30vw;
+    }
+
+    .title {
+      font-size: 3em;
+    }
+
+    #beans {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: center;
+      height: 30vh;
+      width: 100vw;
+    }
+
+    #beans img {
+      width: 50%;
+    }
+
+
+    #team {
+      flex-wrap: wrap;
+      padding: 0 5vw;
+      width: 90vw;
+    }
+
+    #team img {
+      height: 15vh;
+      margin: 0 5vw;
+    }
+
+    #team p {
+      padding: 0;
+      margin: 0;
+    }
+}

@@ -1,0 +1,66 @@
+body {
+	font-family: "Raleway";
+	margin-right: 0;
+	margin-left: 0;
+}
+
+h1.pageTitle {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 40px;
+}	
+
+img {
+	display: block;
+	width: 100%;
+	left: 0;
+	right: 0;
+
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgba(66, 44, 11, .5);
+	border-radius: 40px;
+	max-height: auto;
+}
+
+.text1 {
+	opacity: 1;
+}
+.notFull {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 40px;
+	width: 80%;
+	padding-bottom: 100px;
+}
+
+.beans-container {
+	width: 60
+	%;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.bean-text {
+	width: 55%;
+	height: 80%;
+	text-align: center;
+	margin: auto auto;
+	padding-bottom: 40px;
+
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="stylesheet" type="text/css" href="style/style-home.css">
+<link rel="stylesheet" href="style/mobile-style.css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+<title>Apply for Job</title>
+<style>
+	body {
+		font-family: 'Raleway', Helvetica, sans-serif;
+		margin:0;
+  	background-color: #ffffff;
+	}
+
+
+	input[type=text], input[type=number] {
+	  width: 100%;
+	  margin: 5px 0 20px 0;
+	  display: inline-block;
+	  border: none;
+	  background: #f1f1f1;
+	  padding: 20px 0;
+	}
+
+	hr {
+	  border: 0.5px solid #333333;
+	  margin-bottom: 25px;
+	}
+
+	.go-back {
+	  padding: 12px 18px;
+	  background-color: #870002;
+	  color: #ffffff;
+	}
+
+	.sign-up {
+	  padding: 12px 18px;
+	  background-color: #056627;
+	  color: #ffffff;
+	}
+
+	.go-back, .sign-up {
+	  float: left;
+	  width: 50%;
+	}
+
+	.container {
+		padding: 20px;
+	}
+
+	/* To ensure the buttons are responsive for smaller screens */
+	@media screen and (max-width: 300px) {
+	  .go-back, .sign-up {
+	     width: 100%;
+	  }
+	}
+
+	#job_list {
+		margin-top: 80px;
+	}
+
+	div h2 {
+		text-align: center;
+		color: #000000;
+	}
+	#resume {
+	  background-color: #0067B7;
+	  color: #ffffff;
+	  font-size: 16px;
+	  padding: 15px 40px;
+	  border: none;
+	  cursor: pointer;
+	  border-radius: 10px;
+	  text-align: center;
+
+	}
+
+	#line1 {
+	  font-size: 20px;
+	  margin-left: 200px;
+	  color: #333333;
+	}
+
+
+</style>
+</head>
+<body>
+	<section id=intro>
+    <div id="menu">
+      <div id="logo"><a href="index.html">Brewtiful.</a></div>
+      <div id="main-nav">
+        <a href="products.html">Products</a>
+        <a href="beans.html">Beans</a>
+        <a href="about.html">Our team</a>
+        <a href="jobs.html">Careers</a>
+        <a href="contact.html">Contact us</a>
+      </div>
+    </div>
+  </section>
+
+<div id="job_list">
+	<h2>JOB APPLICATION FORM</h2>
+</div>
+
+
+  <div class="container">
+    <hr>
+    <form action="https://gmelch.github.io/Brewtiful/submitted.html">
+
+    <label for="name"><b>Full Name</b></label>
+    <input type="text" placeholder="Enter Your Full Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Your Email" name="email" required>
+
+    <label for="phone-num"><b>Phone Number</b></label>
+    <input type="number" placeholder="Phone Number" name="phone-num" required>
+
+    <label for="position"><b>Position</b></label></br>
+    <select required>
+    	<option value="">None</option>
+	  <option value="first">Manager</option>
+	  <option value="second">Brewer</option>
+	  <option value="third">Café Worker</option>
+	  <option value="fourth">Cashier</option>
+	</select></br></br>
+
+		<b>Would  You Be Able To Work Evening and/or Weekend Shifts</b></br>
+			<label><input type="radio" name="shift" value="Yes" required></label> Yes</br>
+			<label><input type="radio" name="shift" value="No" required></label> No</br>
+			<label><input type="radio" name="shift" value="Not Sure" required></label> Not Sure</br></br>
+
+
+
+	<label for="shift"><b>Please Attach Your Resumé Below</b></label></br>
+	<input type="file" name="myFile" required><br><br>
+
+    <div class="clearfix">
+      <a href="jobs.html"><button type="button" class="go-back">Go Back</button></a>
+      <input type="Submit" class="sign-up" value="Submit">
+    </div>
+    </form>
+
+    <script>
+    	$('input:submit').click(function(e)
+		{
+		  if(!$.validate())
+		  e.preventDefault();
+		});
+    </script>
+  </div>
+	<footer>
+		<div id="info">
+			<div>
+				<h3>Explore</h3>
+				<a href="index.html">Home</a>
+				<a href="about.html">About us</a>
+				<a href="beans.html">Our beans</a>
+				<a href="products.html">Products</a>
+				<a href="jobs.html">Careers</a>
+			</div>
+			<div>
+				<h3>Locations</h3>
+				<a href="https://www.google.com/maps/place/161+College+Ave,+Medford,+MA+02155/@42.4082737,-71.1176501,17z/data=!3m1!4b1!4m5!3m4!1s0x89e376dc996a4dad:0x7bc51a6fd6e9ab37!8m2!3d42.4082738!4d-71.1155078" target="_blank">Medford</a>
+				<a href="https://www.google.com/maps/place/98+Ash+St,+Cambridge,+MA+02138/@42.3731237,-71.1283397,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37768a3fa21e3:0x566912e4fcae8e3e!8m2!3d42.3731237!4d-71.1263027" target="_blank">Cambridge</a>
+				<a href="https://www.google.com/maps/place/1-15+Patten+St,+Watertown,+MA+02472/@42.3663858,-71.1821556,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89e37768a3fa21e3:0x566912e4fcae8e3e!2s98+Ash+St,+Cambridge,+MA+02138!3b1!8m2!3d42.3731237!4d-71.1263027!3m4!1s0x89e37804d6b4b601:0xa60cd6d174bb689!8m2!3d42.3663858!4d-71.1809422" target="_blank">Watertown</a>
+				<a href="https://www.google.com/maps/place/23+Central+St,+Wellesley,+MA+02482/@42.296466,-71.2974976,17z/data=!3m1!4b1!4m5!3m4!1s0x89e386c9c8e768a1:0x4c87951063cc4248!8m2!3d42.296466!4d-71.2953089" target="_blank">Wellesley</a>
+			</div>
+		</div>
+		<div>
+			<h3>Contact Us</h3>
+			<p>161 College Avenue, Medford, MA 02155.<br>
+			P: 617-838-3323 <br>
+			Email: brewtiful@gmail.com</p>
+		</div>
+	</footer>
+</body>
+</html>

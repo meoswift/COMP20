@@ -1,0 +1,385 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Products</title>
+  <link rel="stylesheet" href="style/style-home.css">
+  <link rel="stylesheet" href="style/mobile-style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script.js" charset="utf-8" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+  <style>
+    body,
+    script {
+      font-size: 20px;
+    }
+
+    h1 {
+      padding: 110px 80px 0 100px;
+      font-family: 'Playfair Display', cursive;
+      font-size: 50px
+    }
+
+    h2 {
+      padding: 30px 100px 0 100px;
+    }
+
+    #p-flex {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    div.p-flex {
+      width: 25%;
+    }
+
+    div.p-flex-in {
+      box-sizing: border-box;
+      margin: 20px;
+      padding: 10px;
+      border: 1px solid #ffffff;
+      background: #ffffff;
+    }
+
+    img.p-img {
+      width: 100%;
+      border-radius: 50%;
+      border: 1px solid #e8e7d9;
+      height: auto;
+      box-shadow: 10px 10px 5px #f1e6d9;
+    }
+
+    img.p2-img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.p-name {
+      font-weight: normal;
+      font-size: 20px;
+      padding: 10px 10px
+    }
+
+    div.p-desc {
+      color: #888;
+      font-size: 0.9em;
+      padding: 0 10px 10px 10px;
+      font-weight: normal
+    }
+
+    .welcome {
+      padding: 20px 100px 0px 100px;
+      font-size: 22px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      div.p-flex {
+        width: 33%;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      div.p-flex {
+        width: 50%;
+      }
+    }
+
+    .scene {
+      width: 100%;
+      height: 100%;
+      margin: 0 0;
+    }
+
+    .card {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transition: transform 0.5s;
+      transform-style: preserve-3d;
+    }
+
+    .face {
+      width: 100%;
+      height: 100%;
+      color: #FFF;
+      vertical-align: middle;
+      -webkit-backface-visibility: hidden;
+    }
+
+    .front {
+      background-color: #FFF;
+    }
+
+    .back {
+      background-color: white;
+      transform: rotateY(180deg);
+      color: black;
+      vertical-align: middle;
+    }
+
+    .scene:hover .card {
+      transform: rotateY(180deg);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <section id=intro>
+    <div id="menu">
+      <div id="logo"><a href="index.html">Brewtiful.</a></div>
+      <div id="main-nav">
+        <a href="products.html">Products</a>
+        <a href="beans.html">Beans</a>
+        <a href="about.html">Our team</a>
+        <a href="jobs.html">Careers</a>
+        <a href="contact.html">Contact us</a>
+      </div>
+    </div>
+  </section>
+
+  <h1>PRODUCTS & SPECIALS</h1>
+  <div class="welcome">Brewtiful has always been dedicated to providing high-quality exquisite coffee beans to
+    all our wonderful customers. Loyal buyers have been enjoying our creative and exemplary bean flavors
+    ever since our establishment in September 2019, and our seasonal specials assure them that there's always something
+    to look forward to at Brewtiful. We are dedicated to consistently bringing joy and beauty into our clients'
+    lives. <br><br> Join our Brewtiful community and try any of our products
+    at your nearest location!
+  </div>
+
+  <h2>TUFTS FA '19 COLLECTION</h2>
+  <div id="p-flex">
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p2-img" src="images/medford.png" /></div>
+          </div>
+        </div>
+        <div class="p-name">Medford Roast</div>
+        <div class="p-desc">rustic, autumnal, tangy. aroma of new england's famous fall foliage.</div>
+      </div>
+    </div>
+
+      <div class="p-flex">
+        <div class="p-flex-in">
+          <div class="scene">
+            <div class="card">
+              <div class="face front"><img class="p2-img" src="images/robusta.png" /></div>
+            </div>
+          </div><br>
+          <div class="p-name">Jumbo Mix</div>
+          <div class="p-desc">vibrant, caustic, berry-like. best served with wheat-flavored rubinoff.</div>
+        </div>
+      </div>
+
+        <div class="p-flex">
+          <div class="p-flex-in">
+            <div class="scene">
+              <div class="card">
+                <div class="face front"><img class="p2-img" src="images/columbia.png" /></div>
+              </div>
+            </div>
+            <div class="p-name">Halligan Beans</div>
+            <div class="p-desc">nippy, ashy, tart. illustrative of the current construction area right outside.</div>
+          </div>
+        </div>
+
+          <div class="p-flex">
+            <div class="p-flex-in">
+              <div class="scene">
+                <div class="card">
+                  <div class="face front"><img class="p2-img" src="images/heart3.png" /></div>
+                </div>
+              </div>
+              <div class="p-name">Tantalizing Tisch</div>
+              <div class="p-desc">piquant, harsh, numbing, slightly. has a slightly carnal side. drink up for y'alls education.</div>
+            </div>
+          </div>
+        </div>
+
+
+  <h2>REGULAR FLAVORS</h2>
+    <div id="p-flex">
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/pea.jpg" /></div>
+          </div>
+        </div>
+        <div class="p-name">Bold + Brewtiful Blend</div>
+        <div class="p-desc">butterfly pea flower. acidic fruity. brief minty aftertaste. may include miscellaneous but fun nuts</div>
+      </div>
+    </div>
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/brazil.png" /></div>
+          </div>
+        </div>
+        <div class="p-name">Breezy Brazilian Nut</div>
+        <div class="p-desc">healthy, smooth, buttery. prepare for the crunch. and the next crunch. yum.</div>
+      </div>
+    </div>
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/boston3.jpg" /></div>
+          </div>
+        </div>
+        <div class="p-name">Boston Rise & Shine</div>
+        <div class="p-desc">tastes like that blossoming in your chest passing thru the charles/mgh t stop.</div>
+      </div>
+    </div>
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/Aniseed.jpg" /></div>
+          </div>
+        </div>
+        <div class="p-name">Blazing Kapeng Barako</div>
+        <div class="p-desc">classic filipino kape for all the studs out there. some beans may include ube.</div>
+      </div>
+    </div>
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/coconut.png" /></div>
+          </div>
+        </div>
+        <div class="p-name">Blissful Bạc Xỉu</div>
+        <div class="p-desc">a vietnamese gift. coconut and sweet sweet condensed milk. she icy too.</div>
+      </div>
+    </div>
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/mocha.jpg" /></div>
+          </div>
+        </div>
+        <div class="p-name">Blissful Mocha</div>
+        <div class="p-desc">rich rich chocolate. tastes like willy wonka's golden ticket. the ticket, not his chocolates. </div>
+      </div>
+    </div>
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/chicory.jpg" /></div>
+          </div>
+        </div>
+        <div class="p-name">Bountiful New Orleans</div>
+        <div class="p-desc">brewed with roasted chicory and sugar. mmmmm no need to wait for mardi gras.</div>
+      </div>
+    </div>
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/chestnut.jpg" /></div>
+          </div>
+        </div>
+        <div class="p-name">Beloved Roasted Chestnut</div>
+        <div class="p-desc">sharp, tangy, warm. a cottage dream. scrumptious s'mores. roast sessions.</div>
+      </div>
+    </div>
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/blackberry.jpg" /></div>
+          </div>
+        </div>
+        <div class="p-name">Balmy Blackberry</div>
+        <div class="p-desc">fruity, woody, fun. a little smokey. tastier than the phone.</div>
+      </div>
+    </div>
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/dark.jpg" /></div>
+          </div>
+        </div>
+        <div class="p-name">Black Forest Roast</div>
+        <div class="p-desc">murky, dark, and handsome. proceeds go to environmental justice grassroots organizations.</div>
+      </div>
+    </div>
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/creme2.jpeg" /></div>
+          </div>
+        </div>
+        <div class="p-name">Creme Brulee</div>
+        <div class="p-desc">an homage to zeke baylor from high school musical. don't just stick to the stuff you know kids.</div>
+      </div>
+    </div>
+
+    <div class="p-flex">
+      <div class="p-flex-in">
+        <div class="scene">
+          <div class="card">
+            <div class="face front"><img class="p-img" src="images/chriscinn.jpeg" /></div>
+          </div>
+        </div>
+        <div class="p-name">Yuletide Blend</div>
+        <div class="p-desc">cinnamon, mint, santa's cookies. a nice side effect: hearing mariah carey's whistle notes.</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div id="info">
+      <div>
+        <h3>Explore</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="beans.html">Our beans</a>
+        <a href="products.html">Products</a>
+        <a href="jobs.html">Careers</a>
+      </div>
+      <div>
+        <h3>Locations</h3>
+        <a href="https://www.google.com/maps/place/161+College+Ave,+Medford,+MA+02155/@42.4082737,-71.1176501,17z/data=!3m1!4b1!4m5!3m4!1s0x89e376dc996a4dad:0x7bc51a6fd6e9ab37!8m2!3d42.4082738!4d-71.1155078" target="_blank">Medford</a>
+        <a href="https://www.google.com/maps/place/98+Ash+St,+Cambridge,+MA+02138/@42.3731237,-71.1283397,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37768a3fa21e3:0x566912e4fcae8e3e!8m2!3d42.3731237!4d-71.1263027" target="_blank">Cambridge</a>
+        <a href="https://www.google.com/maps/place/1-15+Patten+St,+Watertown,+MA+02472/@42.3663858,-71.1821556,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89e37768a3fa21e3:0x566912e4fcae8e3e!2s98+Ash+St,+Cambridge,+MA+02138!3b1!8m2!3d42.3731237!4d-71.1263027!3m4!1s0x89e37804d6b4b601:0xa60cd6d174bb689!8m2!3d42.3663858!4d-71.1809422" target="_blank">Watertown</a>
+        <a href="https://www.google.com/maps/place/23+Central+St,+Wellesley,+MA+02482/@42.296466,-71.2974976,17z/data=!3m1!4b1!4m5!3m4!1s0x89e386c9c8e768a1:0x4c87951063cc4248!8m2!3d42.296466!4d-71.2953089" target="_blank">Wellesley</a>
+      </div>
+    </div>
+    <div>
+      <h3>Contact Us</h3>
+      <p>161 College Avenue, Medford, MA 02155.<br>
+        P: 617-838-3323 <br>
+        Email: brewtiful@gmail.com</p>
+    </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
