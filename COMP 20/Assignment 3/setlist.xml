@@ -1,0 +1,66 @@
+<?xml-stylesheet type="text/css" href="setlist.css"?>
+<setlist>
+  <songs>
+    <song>
+      <title>Little Things</title>
+      <artist>One Direction</artist>and
+      <artist>Taylor Swift</artist>
+      <genre>Pop</genre>
+      <year>2012</year>
+    </song>
+    <song>
+      <title>Blank Space</title>
+      <artist>Taylor Swift</artist>
+      <genre>Pop</genre>
+      <year>2016</year>
+    </song>
+    <song>
+      <title>Jessie J</title>
+      <artist>Domino</artist>
+      <genre>Pop</genre>
+      <year>2011</year>
+    </song>
+    <song>
+      <title>Burn</title>
+      <artist>Ellie Goulding</artist>
+      <genre>Pop</genre>
+      <year>2013</year>
+    </song>
+    <song>
+      <title>Kodaline</title>
+      <artist>All I Want</artist>
+      <genre>Alternative/Indie</genre>
+      <year>2012</year>
+    </song>
+    <song>
+      <title>Waking Up In Vegas</title>
+      <artist>Katy Perry</artist>
+      <genre>Pop</genre>
+      <year>2008</year>
+    </song>
+    <song>
+      <title>Still Into You</title>
+      <artist>Paramore</artist>
+      <genre>Rock</genre>
+      <year>2013</year>
+    </song>
+    <song>
+      <title>This Love</title>
+      <artist>Maroon 5</artist>
+      <genre>Pop</genre>
+      <year>2004</year>
+    </song>
+    <song>
+      <title>Girlfriend</title>
+      <artist>Avril Lavigne</artist>
+      <genre>Rock</genre>
+      <year>2007</year>
+    </song>
+    <song>
+      <title>Umbrella</title>
+      <artist>Rihanna</artist>
+      <genre>Pop</genre>
+      <year>2008</year>
+    </song>
+  </songs>
+</setlist>
