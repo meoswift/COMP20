@@ -1,0 +1,67 @@
+body {
+  margin: 2vw;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: 'Raleway', cursive;
+  font-size: 50px;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  color: #000;
+}
+
+span {
+  color: #F8C537;
+  border-bottom: 5px solid black;
+}
+
+#thumbnail {
+  display: flex;
+  flex-direction: row;
+}
+
+#thumbnail div {
+   position: relative;
+   width: 100%;
+}
+
+div p {
+  font-family: 'Raleway', cursive;
+  font-weight: 400;
+  font-size: 18px;
+  position: absolute;
+  background-color: #fff;
+  top: 20%;
+  left: 10%;
+  padding: 10px;
+  text-align: left;
+  border-radius: 5px;
+  width: 60%;
+}
+
+#thumbnail img {
+  cursor: pointer;
+  height: 25vh;
+  padding: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+#display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#display img {
+  margin: 4vh 0;
+  height: 40vh;
+  width: 40vw;
+}
+
+.hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -8px, 0px);
+}

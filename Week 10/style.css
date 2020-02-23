@@ -1,0 +1,175 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
+
+#main {
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh;
+  overflow-x: scroll;
+}
+
+#left {
+  background-color: #48A9A6;
+  padding: 2%;
+  width: 50%;
+  color: white;
+}
+
+#right {
+  background-color: #C1666B;
+  padding: 20%;
+  padding-top: 2%;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+#search-container {
+  display: flex;
+  justify-content: center;
+}
+
+#search-text {
+  border-radius: 10px;
+  height: 40px;
+  font-size: 15px;
+  width: 350px;
+  padding-left: 10px;
+}
+
+#search-button {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  background-color: CadetBlue;
+  box-shadow: 5px 5px 5px 0px rgba(179,66,66,1);
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#search-button:hover{
+  background-color: SteelBlue;
+  color: white;
+}
+
+p {
+  margin-left: 30%;
+  margin-top: 5px;
+  color: lightgray;
+  position: fixed;
+}
+
+#message {
+  text-align: center;
+  color: white;
+  margin-top: 70px;
+}
+
+#weather-box{
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 10px 10px 5px 0px rgba(179,66,66,1);
+  background-color: DarkSalmon;
+  margin-top: 5%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  #weather-box {
+    margin: 30px 10% 0px 10%;
+    padding: 5px;
+  }
+}
+
+#current-temp {
+  font-family: 'Nunito', serif;
+  letter-spacing: 2px;
+  font-size: 100px;
+}
+
+@media (max-width: 500px) {
+  #current-temp {
+    font-size: 70px;
+    text-align: center;
+  }
+}
+
+
+#city-name {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+@media (max-width: 500px) {
+  #city-name {
+    font-size: 15px;
+  }
+}
+
+hr {
+  margin: 30px 0px;
+}
+
+#weather-icon {
+  height: 100px;
+  width: 100px;
+  margin: -20px 0px;
+}
+
+@media (max-width: 500px) {
+  #weather-icon {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+
+#weather-extra {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Nunito', serif;
+  font-size: 15px;
+  box-shadow: 2px 3px 3px 2px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 500px) {
+  #weather-extra {
+    margin: 10px;
+    font-size: 15px;
+  }
+}
+
+#degree {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.convert {
+  background-color: CadetBlue;
+  box-shadow: 3px 3px 3px 0px rgba(179,66,66,1);
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.hidden{
+  display: none;
+}

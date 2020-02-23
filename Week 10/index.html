@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Raleway:700|Nunito&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Quick Weather!</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="left">
+        <h1>Documentation</h1>
+        <span> 1. Application created using OpenWeatherMap API
+        <br>2. API source: https://openweathermap.org/
+        <br>3. Options when using API: unit - city - temperature - weather icon - description - pressure - humidity
+        <br>4. This weather API can be used to create data visualization for weather in an area or simply used
+        as a searching tool for weather.
+        <br><br><br>
+        <h2>How to use Quick Weather</h2>
+        1. Enter a city name, followed with country code
+        <br>
+        2. Choose Farenheit or Celcius and view weather description in that city!
+        <br>
+        Enjoy :)
+        </span>
+      </div>
+      <div id="right">
+        <h1>Quick Weather!</h1>
+        <section class='search-box'>
+          <form id="search-container">
+              <input id="search-text" type="text" placeholder="City name (e.g: Boston, US)">
+          </form>
+          <section id='degree'>
+            <button type="button" id='toC' class="convert">Celcius</button>
+            <button type="button" id='toF' class="convert">Farenheit</button>
+          </section>
+          <div id="message" class="hidden">
+              Sorry, we cannot find the city you are looking for :(
+          </div>
+          <div id="weather-box" class="hidden">
+            <div id="weather-main">
+              <div id="current-temp"></div>
+              <img id='weather-icon'></img>
+              <div id="city-name"></div>
+              <hr>
+              <div id="weather-extra">
+                <div id="description"></div>
+                <div id='pressure'></div>
+                <div id='humidity'></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
